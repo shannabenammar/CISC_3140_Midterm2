@@ -9,7 +9,9 @@ function myKeyPress(e){
 
 
   // TODO: set the value of the textbox with the formatted value
-
+  // TODO2: set the value of the textbox with the formatted value
+  document.getElementById("textinput").value = formatPhoneNumber(inputNum);
+  
   var keyPressed;
   if(window.event) { // IE
     keyPressed = e.keyCode;
