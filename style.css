@@ -3,3 +3,51 @@
  * 2. The font is a monospaced font
  * (all other design decisions are up to you)
  */
+body {
+  background-image: url("https://i.gifer.com/ZOHV.gif"),
+    linear-gradient(#F09BF7, #F79BD0, #F79BA2, #F7C29B, #F7F09B);
+  animation-duration: 5s;
+  margin-top: 20px;
+  animation-iteration-count: infinite;
+  background-position: relative;
+  background-overflow: hidden;
+  background: cover;
+  backgroun-repeat: no-repeat;
+}
+#textinput {
+  /*  TODO 2.*/
+  font-family: "Lucida Console", Courier, monospace;
+  /*  TODO 1.*/
+  border-bottom: 5px solid; 
+  width: 400px;
+  height: 50px;
+  font-size: 20px;
+  text-align: center;
+}
+.box {
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.h2 {
+  text-align: center;
+  margin-top: 20px;
+}
+.img {
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  max-height: 500px;
+  max-width: 300px;
+  margin-bottom: 20px;
+}
+.box2 {
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+}
+.h2box {
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+}
