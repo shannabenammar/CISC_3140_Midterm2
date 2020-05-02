@@ -28,14 +28,19 @@ function myKeyPress(e){
 
 
 
-  // TODO: Add a condition to ignore entries beyond 10 digits
+  
 
 }
 
 function formatPhoneNumber(value){
 
   /* TODO:  Use replace function to ignore extra - character */
-
+  
+  // TODO: Add a condition to ignore entries beyond 10 digits
+  // TODO3: Add a condition to ignore entries beyond 10 digits
+  //This TODO is also found in the html tag
+  if (value.length > 10) 
+    value = value.slice(0, 10);
   if(value.length > 3 && value.length <= 6)
     value = value.slice(0,3) + "-" + value.slice(3);
   else if(value.length > 6)
